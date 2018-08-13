@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horror Hangman!</title>
+
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-12" style="background: black">
+                <img src="./assets/images/hangman-header.jpg" class="rounded mx-auto d-block" alt="Hangman" style="height: 175px; width: 500px auto;">
+            <h1>Horror Movies</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+
+        </div>
+        
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <div>
+                        <img class = "correctImage" src = "assets/images/horror.jpg">
+                            <p id = "winOrLose"></p>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div id = "underscores">
+                        
+                    </div>
+
+                    <div>
+                         <h3>Wrong guesses: </h3><p id = "guessed"></p>
+                    </div>
+
+                    <div>
+                        <h3>Guesses remaining: </h3><p id = "guessesLeft"></p>
+                    </div>
+
+                    <div>
+                        <h3>Wins: </h3><p id = "wins"></p>
+                    </div>
+
+                    <div>
+                        <h3>Losses: </h3><p id = "losses"></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+
+        </div>
+    </div>
+        
+
+
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    
+</body>
+</html>

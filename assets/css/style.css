@@ -1,0 +1,47 @@
+
+body {
+    background: rgb(44, 44, 44);
+}
+
+h1 {
+    text-align: center;
+    color: #b20000;
+}
+
+.col-sm-6 {
+    border: dotted black;
+}
+
+#underscores {
+    color: white;
+    font-size: 37px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#guessed {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.correctImage {
+    height: 175px;
+    width: 100% auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    align-content: center;
+}
+
