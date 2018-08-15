@@ -76,17 +76,18 @@ document.onkeypress = function (event) {
 
     function winLose() {
         if (correctCounter === targetWord.length) {
+            document.getElementById("winningImage").src="./assets/images/" + targetWord + ".jpg";
             document.getElementById("winOrLose").innerHTML = "Winner Winner!";
             winsDiv++;
             document.getElementById("wins").innerHTML = winsDiv;
-            resetgame();
+            setTimeout(function(){ resetgame();}, 2000);
         }
 
         else if (guessesLeft === 0) {
             document.getElementById("winOrLose").innerHTML = "Oops! You lose! Try again!";
             lossesDiv++;
             document.getElementById("losses").innerHTML = lossesDiv;
-            resetgame();
+            setTimeout(function(){ resetgame();}, 2000);
         }
 
 
